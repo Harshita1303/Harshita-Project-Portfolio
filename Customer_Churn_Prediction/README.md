@@ -26,7 +26,7 @@ This made it impossible to predict churn in advance, leading to **reactive decis
 | Processing    | Apache Spark (Structured Streaming + Batch) |
 | Storage       | Parquet |
 | Warehouse     | Apache Hive |
-| ML Model      | XGBoost / GBTClassifier |
+| ML Model      | XGBoost |
 | Visualization | Tableau |
 | Orchestration | Apache Airflow |
 | Language      | Python |
@@ -57,13 +57,13 @@ This made it impossible to predict churn in advance, leading to **reactive decis
 ---
 
 ### 🔹 Machine Learning
-- Model: **XGBoost / GBTClassifier**
+- Model: **XGBoost**
 - Features:
   - Total plays
   - Listening time
   - Session count
 - Handles **non-linear patterns & class imbalance**
-- Evaluated using **F1-score, Recall, AUC**
+- Evaluated using **F1-score, Recall**
 
 ---
 
